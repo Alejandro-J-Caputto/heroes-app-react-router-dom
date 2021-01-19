@@ -5,7 +5,7 @@ import { getHeroesById } from '../../selectors/getHeroById';
 export const HeroScreen = ({history}) => {
   
   const {heroId} = useParams();
-  
+  console.log(heroId)
   const heroeById = useMemo(()=> getHeroesById(heroId), [heroId]) ;
 
   if(!heroeById) {
@@ -27,7 +27,7 @@ export const HeroScreen = ({history}) => {
   return (
     <div className= "row mt-5">
       <div className="col-4">
-        <img src={`../assets/heroes/${heroId}.jpg`} className="img-thumbnail" alt={superhero}/>
+        <img src={`../assets/${heroId}.jpg`} className="img-thumbnail" alt={superhero}/>
       </div>
       <div className="col-8">
         <h3>{superhero}</h3>
