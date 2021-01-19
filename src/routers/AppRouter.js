@@ -7,6 +7,8 @@ import {
 import { LoginScreen } from '../components/login/LoginScreen';
 import { DashboardRoutes } from './DashboardRoutes';
 export const AppRouter = () => {
+
+
     return (
         <Router>
             <div>
@@ -14,7 +16,7 @@ export const AppRouter = () => {
                 <Switch>
                     <Route exact path="/login" component={LoginScreen} />
                     {/* <Route exact path="/" component={MarvelScreen} /> */}
-                    <Route path="/" component={DashboardRoutes} />
+                    <Route  path="/" component={DashboardRoutes} />
 
                 </Switch>
             </div>

@@ -15,10 +15,10 @@ export const HeroCard = ({
       <div className="card ms-3" style={{maxWidth: 540}}>
         <div className="row no-gutters">
           <div className="col-md-4">
-            <img className="card-img" src={`./assets/heroes/${id}.jpg`}/>
+            <img className="card-img" src={`./assets/heroes/${id}.jpg`} alt={superhero}/>
           </div>
           <div className="col-md-8">
-            <div className="card-body" style={{overflow: 'hidden'}}>
+            <div className="card-body" >
               <h5 className="card-title">{superhero}</h5>
               <p className="card-text"> {alter_ego} </p>
               {
