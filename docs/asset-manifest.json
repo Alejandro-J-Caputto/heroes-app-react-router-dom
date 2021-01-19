@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/heroes-app-react-router-dom/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/heroes-app-react-router-dom/static/js/main.b4a97a64.chunk.js",
-    "main.js.map": "/heroes-app-react-router-dom/static/js/main.b4a97a64.chunk.js.map",
+    "main.js": "/heroes-app-react-router-dom/static/js/main.b0fbe600.chunk.js",
+    "main.js.map": "/heroes-app-react-router-dom/static/js/main.b0fbe600.chunk.js.map",
     "runtime-main.js": "/heroes-app-react-router-dom/static/js/runtime-main.bd634f34.js",
     "runtime-main.js.map": "/heroes-app-react-router-dom/static/js/runtime-main.bd634f34.js.map",
     "static/js/2.843618b6.chunk.js": "/heroes-app-react-router-dom/static/js/2.843618b6.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.bd634f34.js",
     "static/js/2.843618b6.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.b4a97a64.chunk.js"
+    "static/js/main.b0fbe600.chunk.js"
   ]
 }
